@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/mainmenu_scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Messenger - Main Menu</title>
+  </head>
+  <body>
+    <h1>Main Menu</h1>
+    <br><br><br>
+    <div class="mainCapsule">
+      <label for="selectUsers">Users Online:</label>
+      <select id="selectUsers" name="selectUsers">
+
+      </select>
+      <br><br><br>
+      <label for="selectRooms">Rooms Available:</label>
+      <select id="selectRooms" name="selectRooms">
+
+      </select>
+      <br><br><br>
+
+      <div id="roomCapsule">
+        <div id="txtRoomTitle">
+
+        </div>
+        <br><br>
+        <div id="txtRoomDescription">
+
+        </div>
+        <br><br>
+        <input type="checkbox" id="chkRoomPasswordEnabled" name="chkRoomPasswordEnabled" value="">
+        <button onclick="OpenRoom()" type="button" name="btnJoinRoom" id="btnJoinRoom">Join Room</button>
+      </div>
+
+
+
+    </div>
+
+  </body>
+</html>
